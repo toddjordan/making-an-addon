@@ -174,8 +174,7 @@ a:focus {
     -ms-box-sizing:     border-box;
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
-
-    font-family: 'PT Serif', georgia, serif;
+    font-family: Verdata, Geneva, sans-serif;
     font-size: 48px;
     line-height: 1.5;
 }
@@ -701,3 +700,151 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+#sup {
+    background-color: lightgray;
+}
+.sup {
+    text-align: center;
+    display: block;
+}
+
+#title-page {
+    background-image: url("images/making-a-murderer.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    text-align: center;
+}
+
+.step h4 {
+    font-size: 25px;
+}
+
+.step h3 {
+    font-size: 30px;
+}
+
+.step h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.step h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.step h5 {
+    font-size: 15px;
+}
+
+.step p {
+    font-size: 10px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step li {
+    text-align: left;
+    margin: 10px 0;
+}
+.step ul {
+    margin: 0 100px;
+    list-style-type: circle;
+}
+
+.slide.future, #demo.future {
+    opacity: 0;
+}
+
+#title-page .title-text-area {
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 310px;
+}
+
+#title-page .title-text-area span {
+    display: flex;
+    justify-content: center;
+}
+
+#title-page .title-text-area span hr {
+    width: 70px;
+    height: 0px;
+    border-style: solid;
+    margin: 15px 0 0 0;
+}
+
+#ten-k-feet {
+    background-image: url("images/git-pull-request.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 300px 100px;
+    
+}
+
+.master {
+    width: 250px;
+    margin-top: 140px;
+    text-align:right;
+}
+
+.master-desc {
+    width:250px;
+    text-align:right;
+}
+
+.making-an-addon {
+    width: 250px;
+    margin-top: 180px;
+    text-align:right;
+}
+
+.branch-list {
+    width: 2000px;
+}
+
+#ten-k-feet.step.past {
+    opacity: 1;
+}
+
+body {
+    background-image: url("images/making-a-murderer-bg.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+#thanks.thanks h1{
+    font-size: 128px;
+}
+
+#thanks.thanks.future {
+    display: none;
+}
+
+#links ul {
+    text-align: left;
+    font-size: 20px;
+}
+#links.step ul, #reuse.step ul, #documenting.step ul, #upgrading.step ul {
+    margin: 10px 20px;
+}
+
+.slide.commits hr {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.slide.commits ul {
+    list-style-type: none;
+}
+
+#demo {
+    padding: 40px 0;
+}
